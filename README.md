@@ -1,39 +1,45 @@
-#�ړI
 
-Jupyter�ŕ׋�����(�����Ă݂�)
+#目的
 
-#���\�z
+Jupyterで勉強する(試してみる)
 
-���\�z�ɂ��Ă͂������������ĔY�܂����B�B�B
+#環境構築
 
-��1�FAnaconda
+環境構築についてはやり方が多すぎて悩ましい。。。
 
-�ȉ��_�E�E�����[�h�T�C�g
+例1：Anaconda
+
+以下ダウウンロードサイト
 https://www.continuum.io/downloads
 
-Anaconda�ɂ͕W����Jupyter���̈ꎮ���܂܂�Ă���B
+Anacondaには標準でJupyter等の一式が含まれている。
+Windows->アプリケーション一覧->Anaconda->Jupyter起動
+もしくはコンソール画面で”Jupyter notebook”
 
-��2�FVS2017RC
+起動が成功すると以下で起動できる
+【http://localhost:8888】
 
-�ڂ��������͍���B�B�B
-Azure���g�p����H
+例2：VS2017RC
 
-��3�FDocker
+詳しい調査は今後。。。
+Azureを使用する？
 
-�ȉ�Docker Hub����C���X�g�[��
+例3：Docker
+
+以下Docker Hubからインストール
 https://hub.docker.com/u/jupyter/
 
-�ǂ̃C���[�W�g�p���邩�͉������邩��
-�I������̂��悢�B
+どのイメージ使用するかは何をするかで
+選択するのがよい。
 
 
-#�g����
+#使い方
 
-�E���New��Python3��I�������
-notebook���쐬�ł���B
+右上のNewでPython3を選択すると
+notebookが作成できる。
 
-notebook�̃y�[�W��In[]�ɃR�[�h����������
-(run cell)���N���b�N����B
+notebookのページでIn[]にコードを書き込み
+(run cell)をクリックする。
 
-�܂��쐬���B�����R�~�b�g�B
+まだ作成中。随時コミット。
 
